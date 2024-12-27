@@ -8,6 +8,20 @@ Record QQ users who posts fake messages for freshmen
 
 若您被错误记录，请提issue。
 
+## 技术细节
+f文件夹下共有四个文件：
+- [/f/user.json](user.json)记录发布虚假信息的QQ号
+- [/f/group.json](group.json)记录发布的QQ群号
+- [/f/wall.json](wall.json)记录发布的「校园墙」的号
+- [/f/wechat.json](wechat.json)记录发布的微信号
+
+## 建议的操作
+如果您使用机器人管理群聊，建议您设置以下操作：
+
+1. 遇到user.json记录的QQ号立刻踢出并拉黑。
+2. 发现有用户发布其他三个文件记录的关键字，立刻撤回并踢出发布者。
+3. 为了项目更好地发展，希望您额外记录触发关键字的信息，并连同发布者一起提报到此仓库的issue或者pr。
+
 ## 授权协议
 本仓库的数据库依据[ODbL 1.0](LICENSE)授权，其它所有说明文本依据[CC BY-SA 4.0](LICENSE-text)授权。额外说明：除非经过所有贡献者的授权，本仓库及其衍生作品不允许镜像到Gitee、Gitcode等其它源代码托管平台。
 
