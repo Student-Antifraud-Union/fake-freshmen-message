@@ -10,15 +10,15 @@ Record QQ users who posts fake messages for freshmen
 
 ## 技术细节
 f文件夹下共有四个文件：
-- [user.json](/f/user.json)记录发布虚假信息的QQ号
-- [group.json](/f/group.json)记录发布的QQ群号
-- [wall.json](/f/wall.json)记录发布的「校园墙」的号
+- [users.json](/f/users.json)记录发布虚假信息的QQ号
+- [groups.json](/f/groups.json)记录发布的QQ群号
+- [walls.json](/f/walls.json)记录发布的「校园墙」的号
 - [wechat.json](/f/wechat.json)记录发布的微信号
 
 ## 建议的操作
 如果您使用机器人管理群聊，建议您设置以下操作：
 
-1. 遇到user.json记录的QQ号，立刻踢出并拉黑。
+1. 遇到users.json记录的QQ号，立刻踢出并拉黑。
 2. 发现有用户发布其他三个文件记录的关键字，立刻撤回并踢出发布者。
 3. 为了项目更好地发展，希望您额外记录触发关键字的信息，以及发布者的QQ号码，并一起提报到此仓库的issue或者pr。
 
