@@ -10,10 +10,10 @@ Record QQ users who posts fake messages for freshmen
 
 ## 技术细节
 f文件夹下共有四个文件：
-- [/f/user.json](user.json)记录发布虚假信息的QQ号
-- [/f/group.json](group.json)记录发布的QQ群号
-- [/f/wall.json](wall.json)记录发布的「校园墙」的号
-- [/f/wechat.json](wechat.json)记录发布的微信号
+- [user.json](/f/user.json)记录发布虚假信息的QQ号
+- [group.json](/f/group.json)记录发布的QQ群号
+- [wall.json](/f/wall.json)记录发布的「校园墙」的号
+- [wechat.json](/f/wechat.json)记录发布的微信号
 
 ## 建议的操作
 如果您使用机器人管理群聊，建议您设置以下操作：
